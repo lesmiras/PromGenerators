@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SOLDI TEMPLATE</title>
+  <link href="css/libs.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <!-- MOBILE-NAV -->
+  {% include  "partials/mobile_nav.njk" %}
+  <!-- PAGE -->
+  <div class="page preload">
+    <!-- HEADER -->
+    {% include  "partials/header.njk" %}
+    <!-- MAIN -->
+    <main>
+      {% block main %}{% endblock %}
+    </main>
+
+  </div>
+  <!-- FOOTER -->
+  {% include  "partials/footer.njk" %}  
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/libs.js"></script>
+  <script src="js/main.js"></script>
+
+  <div class="device-xs visible-xs"></div>
+  <div class="device-sm visible-sm"></div>
+  <div class="device-md visible-md"></div>
+  <div class="device-lg visible-lg"></div>
+</body>
+</html>

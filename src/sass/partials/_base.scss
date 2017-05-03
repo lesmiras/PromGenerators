@@ -1,0 +1,27 @@
+// FONTS
+@include font-face("FiraSans", "../fonts/FiraSans-Light", 300, $file-formats: ttf);
+@include font-face("FiraSans", "../fonts/FiraSans-Regular", 400, $file-formats: ttf);
+@include font-face("FiraSans", "../fonts/FiraSans-Medium", 500, $file-formats: ttf);
+@include font-face("Oswald", "../fonts/Oswald-Light", 300, $file-formats: ttf);
+@include font-face("Oswald", "../fonts/Oswald-Regular", 400, $file-formats: ttf);
+@include font-face("Oswald", "../fonts/Oswald-Medium", 500, $file-formats: ttf);
+@include font-face("RussoOne", "../fonts/RussoOne-Regular", 400, $file-formats: ttf);
+
+// VARIABLES
+$color-primary: #0099de;
+$color-secondary: #003171;
+$color-third: #e29c45;
+
+$color-text: #1d1d1b;
+ 
+$footer-height: 300px;
+$header-height: 120px;
+
+$font-primary: 'FiraSans';
+$font-secondary: 'Oswald';
+$font-special: 'RussoOne';
+
+$font-size-base: 16px;
+
+
+// MIXINS

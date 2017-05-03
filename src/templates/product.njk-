@@ -1,0 +1,319 @@
+{% extends "partials/layout.njk" %}
+
+{% block main %}
+<div class="inner-wrap">
+	<div class="container">
+		<ol class="breadcrumb">
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">Продуция</a></li>
+			<li><a href="#">Дизельные генераторы</a></li>
+			<li> Perkins Дизельный генератор AJ10</li>
+		</ol>
+
+		<div class="product">
+			<div class="row">
+				<div class="col-md-6 col-sm-8 col-lg-push-3 col-sm-push-4 product-right">
+					<h1 class="product-title">Дизельный генератор Perkins AJ10</h1>
+					<div class="product-description">
+						<ul>
+							<li>Производитель двигателя: <strong>Perkins</strong></li>
+							<li>Основная мощность: <strong>13.7 кВА / 10 кВт </strong></li>
+							<li>Резервная мощность: <strong>13.7 кВА / 11 кВт</strong></li>
+							<li>Габариты: В,Ш,Д (мм): <strong>126 х 88,4 х 181</strong></li>
+							<li>Вес,кг: <strong>525</strong></li>
+						</ul>
+					</div>
+					<div class="product-buttons">
+						<a href="#" class="link-btn large-btn">Рассчитать систему электроснабжения под ключ</a>
+						<a href="#" class="link-btn large-btn">Узнать цену</a>
+					</div>
+					<div class="product-description">
+						<h4>Схема нашей работы и порядок оплаты</h4>
+						<p>
+							50% предоплата при подписании договора 30% в течение трех календарных дней после получения уведомления о готовности товара к отгрузке с завода изготовителя. 20% в течение трех дней с момента получения уведомления о готовности товара к установке.
+						</p>
+						<p>
+							Доставка и пуско-наладка в любой регион Казахстана. Доставка с завода происходит в течении 3-4 недель.
+						</p>
+						<h4>Схема работы:</h4>
+						<ul>
+							<li>1. Звонок</li>
+							<li>2. Подбор оборудования под ваши требования</li>
+							<li>3. Формирование лучшего предложения для вас</li>
+							<li>4. Проектирование</li>
+							<li>5. Установка</li>
+							<li>6. Обучение</li>
+							<li>7. Сервис</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-4 col-md-pull-6 col-sm-pull-8">
+					<div class="product-image">
+						<a href="images/main-slider-item.jpg" class="fancybox product-image_big" rel="product-gallery">
+							<img src="http://placehold.it/400x400" class="img-responsive" alt="#">
+						</a>
+						<div class="product-image_thumbs">
+							<div class="thumb-slider">
+								<div class="thumb_item">
+									<a href="images/main-slider-item.jpg" class="fancybox" rel="product-gallery">
+										<img src="http://placehold.it/100x100" class="img-responsive" alt="#">
+									</a>
+								</div>
+								<div class="thumb_item">
+									<a href="images/main-slider-item.jpg" class="fancybox" rel="product-gallery">
+										<img src="http://placehold.it/100x100" class="img-responsive" alt="#">
+									</a>
+								</div>
+								<div class="thumb_item">
+									<a href="images/main-slider-item.jpg" class="fancybox" rel="product-gallery">
+										<img src="http://placehold.it/100x100" class="img-responsive" alt="#">
+									</a>
+								</div>
+								<div class="thumb_item">
+									<a href="images/main-slider-item.jpg" class="fancybox" rel="product-gallery">
+										<img src="http://placehold.it/100x100" class="img-responsive" alt="#">
+									</a>
+								</div>
+								<div class="thumb_item">
+									<a href="images/main-slider-item.jpg" class="fancybox" rel="product-gallery">
+										<img src="http://placehold.it/100x100" class="img-responsive" alt="#">
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product-actions">
+						<a href="#" class="link-btn large-btn">Добавить к сравнению</a>
+						<a href="#" class="link-btn large-btn">Перейти к сравнению</a>
+						<a href="#" class="link-btn large-btn save-pdf">Сохранить описание товара</a>
+					</div>
+				</div>
+			</div>
+			<div class="tabs product-tabs">
+				<ul class="tabs_nav">
+					<li class="tabs_nav-item"><a href="#tab-1">Характеристики</a></li>
+					<li class="tabs_nav-item"><a href="#tab-2">Описание</a></li>
+					<li class="tabs_nav-item"><a href="#tab-3">Гарантия</a></li>
+					<li class="tabs_nav-item"><a href="#tab-4">Примечание</a></li>
+				</ul>
+				<div class="tabs_content" id="tab-1">
+					<div class="product-details">
+						<h4 class="product-details_title">Основные характеристики</h4>
+						<ul class="product-details_list">
+							<li class="details_list-item">
+								<span>Основная мощность:</span>
+								<span>10 кВт / 12.5 кВА </span>
+							</li>
+							<li class="details_list-item">
+								<span>Резервная мощность:</span>
+								<span>11 кВт / 13.7 кВА 	</span>
+							</li>
+							<li class="details_list-item">
+								<span>Частота тока, Гц:</span>
+								<span>50</span>
+							</li>
+							<li class="details_list-item">
+								<span>Напряжение, В:</span>
+								<span>400</span>
+							</li>
+							<li class="details_list-item">
+								<span>Расход топлива, л/ч:</span>
+								<span></span>
+							</li>
+							<li class="details_list-item">
+								<span>- при 75% нагрузки:</span>
+								<span>3.2</span>
+							</li>
+							<li class="details_list-item">
+								<span>- при 100% нагрузки:</span>
+								<span>4</span>
+							</li>
+						</ul>
+					</div>
+					<div class="product-details">
+						<h4 class="product-details_title">Двигатель</h4>
+						<ul class="product-details_list">
+							<li class="details_list-item">
+								<span>Модель двигателя:</span>
+								<span>Perkins 403A-15G1</span>
+							</li>
+							<li class="details_list-item">
+								<span>Частота вращения вала двигателя, об/мин:</span>
+								<span>1500 </span>
+							</li>
+							<li class="details_list-item">
+								<span>Тип:</span>
+								<span>3LN</span>
+							</li>
+							<li class="details_list-item">
+								<span>Диаметр цилиндра, мм:</span>
+								<span>84</span>
+							</li>
+							<li class="details_list-item">
+								<span>Ход поршня, мм:</span>
+								<span>90</span>
+							</li>
+							<li class="details_list-item">
+								<span>Рабочий объем, л:</span>
+								<span>1.5</span>
+							</li>
+							<li class="details_list-item">
+								<span>Степень сжатия:</span>
+								<span>22.5:1</span>
+							</li>
+						</ul>
+					</div>
+					<div class="product-details">
+						<h4 class="product-details_title">Генератор</h4>
+						<ul class="product-details_list">
+							<li class="details_list-item">
+								<span>Модель генератора:</span>
+								<span>Stamford PI044F </span>
+							</li>
+							<li class="details_list-item">
+								<span>Напряжение, В:</span>
+								<span>400</span>
+							</li>
+							<li class="details_list-item">
+								<span>Род тока:</span>
+								<span>переменный трехфазный</span>
+							</li>
+							<li class="details_list-item">
+								<span>Номинальный коэффициент мощности:</span>
+								<span>0.8</span>
+							</li>
+							<li class="details_list-item">
+								<span>Номинальный ток, А:</span>
+								<span>0.8</span>
+							</li>
+							<li class="details_list-item">
+								<span>Класс изоляции:</span>
+								<span>H</span>
+							</li>
+							<li class="details_list-item">
+								<span>Степень защиты:</span>
+								<span>IP23</span>
+							</li>
+							<li class="details_list-item">
+								<span>Регулятор напряжения (AVR):</span>
+								<span>AS480</span>
+							</li>
+						</ul>
+					</div>
+					<div class="product-details">
+						<h4 class="product-details_title">Генератор</h4>
+						<ul class="product-details_list">
+							<li class="details_list-item">
+								<span>Топливный бак, л</span>
+								<span>Расход топлива, л/ч:</span>
+							</li>
+							<li class="details_list-item">
+								<span>Номинальный ток, А:</span>
+								<span>0.8</span>
+							</li>
+							<li class="details_list-item">
+								<span>Расход топлива, л/ч:</span>
+								<span></span>
+							</li>
+							<li class="details_list-item">
+								<span>- при 75% нагрузки:</span>
+								<span>3.2</span>
+							</li>
+							<li class="details_list-item">
+								<span>- при 100% нагрузки:</span>
+								<span>4</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="tabs_content" id="tab-2">
+					<div class="product-description">
+						<h4>Какое нибуль описание для товара</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime libero incidunt quibusdam. Iusto nemo veritatis, deleniti sed explicabo soluta ipsum.
+						</p>
+					</div>
+				</div>
+				<div class="tabs_content" id="tab-3">
+					<div class="product-description">
+						<h4>Какое нибуль описание для товара</h4>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+						</p>
+						<h5>Еще один заголовок</h5>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime libero incidunt quibusdam. Iusto nemo veritatis, deleniti sed explicabo soluta ipsum.
+						</p>
+					</div>
+				</div>
+				<div class="tabs_content" id="tab-4">
+					<div class="product-notation">
+						<h4 class="product-notation_title">Примечание:</h4>
+						<p>Характеристики указаны для следующих условий эксплуатации:</p>
+						<ul>
+							<li>Температура воздуха 20 °С</li>
+							<li>Плотность дизельного топлива - 840 кг/м3 (зимнее дизельное топливо)</li>
+							<li>Атмосферное давление 101,3 кПа</li>
+							<li>Относительная влажность воздуха 50%</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<section class="callback-section">
+		<form class="callback-form">
+			<h4 class="form_title">Заказать звонок</h4>
+			<div class="form-group">
+				<input type="text" name="name" class="form-input" placeholder="Ваше имя">
+				<input type="text" name="phone" class="form-input" placeholder="Номер телефона">
+				<button class="form_submit" type="submit">ЗАКАЗАТЬ</button>
+			</div>
+		</form>
+	</section>
+
+	<section class="contacts-section">
+		<div class="container">
+			<h2 class="main-title">Контакты</h2>
+			<div class="contacts">
+				<div class="info_item">
+					<h4>ТЕЛЕФОНЫ</h4>
+					<p>
+						+7 (727) 376-80-00<br>
+						+7 (701) 736-36-36
+					</p>
+				</div>
+				<div class="info_item">
+					<h4>EMAIL</h4>
+					<p>
+						info@promgenerator.kz<br>
+						sale@promgenerator.kz<br>
+						tender@promgenerator.kz
+					</p>
+				</div>
+				<div class="info_item">
+					<h4>АДРЕС</h4>
+					<p>
+						г. Алматы, мкр-н Жетысу 3<br>
+						д. 25, оф. 309 (БЦ "Фортуна", блок Г)
+					</p>
+				</div>
+				<div class="info_item">
+					<h4>РЕЖИМ РАБОТЫ</h4>
+					<p>
+						Пн ‒ пт с 09:00 до 18:00
+					</p>
+				</div>
+			</div>
+			<div class="map">
+				<img src="images/map.jpg" class="img-responsive">
+			</div>
+		</div>
+	</section>
+</div>
+{% endblock %}

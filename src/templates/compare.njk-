@@ -1,0 +1,196 @@
+{% extends "partials/layout.njk" %}
+
+{% block main %}
+<div class="inner-wrap">
+	<div class="container">
+		<h1 class="page-title">Таблица сравнения генераторов</h1>
+		<div class="compare-wrap">
+			<div class="compare-left">
+				<div class="compare-actions clearfix">
+					<a href="#" class="link-btn back">Назад</a>
+					<a href="#" class="link-btn print">Распечатать</a>
+				</div>
+				<div class="comparet-titles">
+					<div class="ctitle_item"><span>Модель ДГУ</span></div>
+					<div class="ctitle_item"><span>Производитель</span></div>
+					<div class="ctitle_item"><span>Номинальная мощность (кВт/кВа)</span></div>
+					<div class="ctitle_item"><span>Резервная мощность (кВт/кВа)</span></div>
+					<div class="ctitle_item"><span>Габариты (В/Ш/Д, мм)</span></div>
+					<div class="ctitle_item"><span>Вес (кг)</span></div>
+					<div class="ctitle_item"><span>Гарантия (мес.)</span></div>
+					<div class="ctitle_item"><span>Двигатель</span></div>
+					<div class="ctitle_item"><span>Модель двигателя</span></div>
+					<div class="ctitle_item"><span>Топливо</span></div>
+					<div class="ctitle_item"><span>Оборотов в минуту</span></div>
+					<div class="ctitle_item"><span>Количество цилиндров</span></div>
+					<div class="ctitle_item"><span>Подача воздуха</span></div>
+					<div class="ctitle_item"><span>Регулятор оборотов</span></div>
+					<div class="ctitle_item"><span>Рабочий объем (л)</span></div>
+					<div class="ctitle_item"><span>Расход топлива при 50% нагрузке</span></div>
+					<div class="ctitle_item"><span>Расход топлива при 75% нагрузке</span></div>
+					<div class="ctitle_item"><span>Расход топлива при 100% нагрузке</span></div>
+					<div class="ctitle_item"><span>Емкость топливного бака (л) </span></div>
+				</div>
+			</div>
+			<div class="compare_items">
+				<div class="compare_items-inner">
+					<div class="compare_item">
+						<div class="compare_item-image">
+							<img src="images/catalog-item.jpg" class="img-responsive" alt="#">
+						</div>
+						<h3 class="compare_item-title"><span>Perkins AJ10</span></h3>
+						<a href="#" class="compare_item-remove">Убрать из сравнения</a>
+						<div class="compare_item-detail"><span>P600</span></div>
+						<div class="compare_item-detail"><span><img src="images/flag-britain.png"></span></div>
+						<div class="compare_item-detail"><span>4,4 / 5,6</span></div>
+						<div class="compare_item-detail"><span>4,4 / 5,6</span></div>
+						<div class="compare_item-detail"><span>80/50/90</span></div>
+						<div class="compare_item-detail"><span>250</span></div>
+						<div class="compare_item-detail"><span>12</span></div>
+						<div class="compare_item-detail"><span>Perkins</span></div>
+						<div class="compare_item-detail"><span>Perkins AJ20</span></div>
+						<div class="compare_item-detail"><span>Дизель</span></div>
+						<div class="compare_item-detail"><span>1500</span></div>
+						<div class="compare_item-detail"><span>1</span></div>
+						<div class="compare_item-detail"><span>Естественная</span></div>
+						<div class="compare_item-detail"><span>Механический</span></div>
+						<div class="compare_item-detail"><span>0,435</span></div>
+						<div class="compare_item-detail"><span>1</span></div>
+						<div class="compare_item-detail"><span>1.5</span></div>
+						<div class="compare_item-detail"><span>2</span></div>
+						<div class="compare_item-detail"><span>250</span></div>
+					</div>
+					<div class="compare_item">
+						<div class="compare_item-image">
+							<img src="images/catalog-item.jpg" class="img-responsive" alt="#">
+						</div>
+						<h3 class="compare_item-title"><span>Perkins AJ10</span></h3>
+						<a href="#" class="compare_item-remove">Убрать из сравнения</a>
+						<div class="compare_item-detail"><span>P600</span></div>
+						<div class="compare_item-detail"><span><img src="images/flag-britain.png"></span></div>
+						<div class="compare_item-detail"><span>4,4 / 5,6</span></div>
+						<div class="compare_item-detail"><span>4,4 / 5,6</span></div>
+						<div class="compare_item-detail"><span>80/50/90</span></div>
+						<div class="compare_item-detail"><span>250</span></div>
+						<div class="compare_item-detail"><span>12</span></div>
+						<div class="compare_item-detail"><span>Perkins</span></div>
+						<div class="compare_item-detail"><span>Perkins AJ20</span></div>
+						<div class="compare_item-detail"><span>Дизель</span></div>
+						<div class="compare_item-detail"><span>1500</span></div>
+						<div class="compare_item-detail"><span>1</span></div>
+						<div class="compare_item-detail"><span>Естественная</span></div>
+						<div class="compare_item-detail"><span>Механический</span></div>
+						<div class="compare_item-detail"><span>0,435</span></div>
+						<div class="compare_item-detail"><span>1</span></div>
+						<div class="compare_item-detail"><span>1.5</span></div>
+						<div class="compare_item-detail"><span>2</span></div>
+						<div class="compare_item-detail"><span>250</span></div>
+					</div>
+					<div class="compare_item">
+						<div class="compare_item-image">
+							<img src="images/catalog-item.jpg" class="img-responsive" alt="#">
+						</div>
+						<h3 class="compare_item-title"><span>Perkins AJ10</span></h3>
+						<a href="#" class="compare_item-remove">Убрать из сравнения</a>
+						<div class="compare_item-detail"><span>P600</span></div>
+						<div class="compare_item-detail"><span><img src="images/flag-britain.png"></span></div>
+						<div class="compare_item-detail"><span>4,4 / 5,6</span></div>
+						<div class="compare_item-detail"><span>4,4 / 5,6</span></div>
+						<div class="compare_item-detail"><span>80/50/90</span></div>
+						<div class="compare_item-detail"><span>250</span></div>
+						<div class="compare_item-detail"><span>12</span></div>
+						<div class="compare_item-detail"><span>Perkins</span></div>
+						<div class="compare_item-detail"><span>Perkins AJ20</span></div>
+						<div class="compare_item-detail"><span>Дизель</span></div>
+						<div class="compare_item-detail"><span>1500</span></div>
+						<div class="compare_item-detail"><span>1</span></div>
+						<div class="compare_item-detail"><span>Естественная</span></div>
+						<div class="compare_item-detail"><span>Механический</span></div>
+						<div class="compare_item-detail"><span>0,435</span></div>
+						<div class="compare_item-detail"><span>1</span></div>
+						<div class="compare_item-detail"><span>1.5</span></div>
+						<div class="compare_item-detail"><span>2</span></div>
+						<div class="compare_item-detail"><span>250</span></div>
+					</div>
+					<div class="compare_item">
+						<div class="compare_item-image">
+							<img src="images/catalog-item.jpg" class="img-responsive" alt="#">
+						</div>
+						<h3 class="compare_item-title"><span>Perkins AJ10</span></h3>
+						<a href="#" class="compare_item-remove">Убрать из сравнения</a>
+						<div class="compare_item-detail"><span>P600</span></div>
+						<div class="compare_item-detail"><span><img src="images/flag-britain.png"></span></div>
+						<div class="compare_item-detail"><span>4,4 / 5,6</span></div>
+						<div class="compare_item-detail"><span>4,4 / 5,6</span></div>
+						<div class="compare_item-detail"><span>80/50/90</span></div>
+						<div class="compare_item-detail"><span>250</span></div>
+						<div class="compare_item-detail"><span>12</span></div>
+						<div class="compare_item-detail"><span>Perkins</span></div>
+						<div class="compare_item-detail"><span>Perkins AJ20</span></div>
+						<div class="compare_item-detail"><span>Дизель</span></div>
+						<div class="compare_item-detail"><span>1500</span></div>
+						<div class="compare_item-detail"><span>1</span></div>
+						<div class="compare_item-detail"><span>Естественная</span></div>
+						<div class="compare_item-detail"><span>Механический</span></div>
+						<div class="compare_item-detail"><span>0,435</span></div>
+						<div class="compare_item-detail"><span>1</span></div>
+						<div class="compare_item-detail"><span>1.5</span></div>
+						<div class="compare_item-detail"><span>2</span></div>
+						<div class="compare_item-detail"><span>250</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<section class="callback-section">
+		<form class="callback-form">
+			<h4 class="form_title">Заказать звонок</h4>
+			<div class="form-group">
+				<input type="text" name="name" class="form-input" placeholder="Ваше имя">
+				<input type="text" name="phone" class="form-input" placeholder="Номер телефона">
+				<button class="form_submit" type="submit">ЗАКАЗАТЬ</button>
+			</div>
+		</form>
+	</section>
+
+	<section class="contacts-section">
+		<div class="container">
+			<h2 class="main-title">Контакты</h2>
+			<div class="contacts">
+				<div class="info_item">
+					<h4>ТЕЛЕФОНЫ</h4>
+					<p>
+						+7 (727) 376-80-00<br>
+						+7 (701) 736-36-36
+					</p>
+				</div>
+				<div class="info_item">
+					<h4>EMAIL</h4>
+					<p>
+						info@promgenerator.kz<br>
+						sale@promgenerator.kz<br>
+						tender@promgenerator.kz
+					</p>
+				</div>
+				<div class="info_item">
+					<h4>АДРЕС</h4>
+					<p>
+						г. Алматы, мкр-н Жетысу 3<br>
+						д. 25, оф. 309 (БЦ "Фортуна", блок Г)
+					</p>
+				</div>
+				<div class="info_item">
+					<h4>РЕЖИМ РАБОТЫ</h4>
+					<p>
+						Пн ‒ пт с 09:00 до 18:00
+					</p>
+				</div>
+			</div>
+			<div class="map">
+				<img src="images/map.jpg" class="img-responsive">
+			</div>
+		</div>
+	</section>
+</div>
+{% endblock %}
