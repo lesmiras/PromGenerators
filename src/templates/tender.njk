@@ -1,0 +1,112 @@
+{% extends "partials/layout.njk" %}
+
+{% block main %}
+
+<div class="inner-wrap no-pt">
+	<div class="page-top text-page-top">
+		<div class="container">
+			<div class="page-banner tender-page"></div>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="text-block">
+						<h1 class="page-title text-left">У вас тендер?</h1>
+						<p>
+							Наша компания ТОО "ПКС" (PromGenerator.kz) - постоянный участник тендеров по поставкам промышленных генераторов и сопутствующего оборудования  на территории Казахстана.
+						</p>
+						<p>
+							Наша компания решает любые задачи по организации резервного электроснабжения под ключ: от проектирования до пуско-наладки и шеф-монтажа, а также установки любых дополнительных опций под ваши требования. Более 10 лет опыта работы позволяют нам еще на этапе проектирования учитывать все.
+						</p>
+						<p>
+							Мы приглашаем все заинтересованные стороны к диалогу, в котором мы приложим все усилия, чтобы все стороны были удовлетворены и заинтересованы в дальнейшей работе исключительно с нашей компанией.
+						</p>
+						<p>
+							Если вы являетесь руководителем или представителем компании заинтересованным в услугах резервного электроснабжения, свяжитесь с нами, заполнив ниже формы по тендеру или созвонившись напрямую с нашим генеральным директором:
+						</p>
+						<p>
+							8 701 736 36 36 Акбар Булекбаев.
+						</p>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="main-images">
+						<div class="main-image_item">
+							<img src="images/tender-image-1.jpg" class="img-responsive" alt="#">
+						</div>
+						<div class="main-image_item">
+							<img src="images/tender-image-1.jpg" class="img-responsive" alt="#">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<h2 class="main-title text-center">Информация по тендеру</h2>
+		<section class="tender-feedback">
+			<form class="tender-feedback_form">
+				<div class="form-group clearfix">
+					<div class="form-item">
+						<input type="text" name="name" class="form-input" placeholder="Ваше имя">
+					</div>
+					<div class="form-item">
+						<input type="text" name="phone" class="form-input" placeholder="Телефона">
+					</div>
+					<div class="form-item">
+						<input type="text" name="email" class="form-input" placeholder="Почта">
+					</div>
+					<div class="form-item">
+						<input type="text" name="company" class="form-input" placeholder="Компания">
+					</div>
+					<div class="form-item">
+						<input type="file" name="file" id="file" class="form-input form-input-file" />
+						<label for="file">Прикрепить файл</label>
+					</div>
+				</div>
+				<textarea class="form-input" name="message" placeholder="Сообщение"></textarea>
+				<button class="form_submit" type="submit">Отправить</button>
+			</form>
+		</section>
+	</div>
+
+	<section class="contacts-section">
+		<div class="container">
+			<h2 class="main-title">Контакты</h2>
+			<div class="contacts">
+				<div class="info_item">
+					<h4>ТЕЛЕФОНЫ</h4>
+					<p>
+						+7 (727) 376-80-00<br>
+						+7 (701) 736-36-36
+					</p>
+				</div>
+				<div class="info_item">
+					<h4>EMAIL</h4>
+					<p>
+						info@promgenerator.kz<br>
+						sale@promgenerator.kz<br>
+						tender@promgenerator.kz
+					</p>
+				</div>
+				<div class="info_item">
+					<h4>АДРЕС</h4>
+					<p>
+						г. Алматы, мкр-н Жетысу 3<br>
+						д. 25, оф. 309 (БЦ "Фортуна", блок Г)
+					</p>
+				</div>
+				<div class="info_item">
+					<h4>РЕЖИМ РАБОТЫ</h4>
+					<p>
+						Пн ‒ пт с 09:00 до 18:00
+					</p>
+				</div>
+			</div>
+			<div class="map">
+				<img src="images/map.jpg" class="img-responsive">
+			</div>
+		</div>
+	</section>
+</div>
+{% endblock %}

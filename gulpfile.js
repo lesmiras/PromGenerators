@@ -18,6 +18,8 @@ var gulp = require('gulp'),
 	svgmin = require('gulp-svgmin'),
 	cheerio = require('gulp-cheerio'),
 	nunjucksRender = require('gulp-nunjucks-render'),
+	cssbeautify = require('gulp-cssbeautify'),
+	htmlbeautify = require('gulp-html-beautify'),
 	reload = browserSync.reload;
 
 var path = {
@@ -99,12 +101,28 @@ gulp.task('scripts:build', function() {
 		.pipe(gulp.dest(path.src.core+'js'));
 });
 
+gulp.task('html:build', function() {
+  gulp.src(path.src.html)
+    .pipe(htmlbeautify({
+    	"preserve_newlines": false,
+    	"indent_size": 4,
+    }))
+    .pipe(gulp.dest(path.build.core))
+});
+
 gulp.task('style:build', function () {
+    gulp.src(path.src.core+'css/style.css')
+        .pipe(autoprefixer(['last 10 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+        .pipe(cssbeautify({
+        	indent: '    ',
+            autosemicolon: false,
+        }))
+        .pipe(gulp.dest(path.build.css));
+});
+gulp.task('style_libs:build', function () {
     gulp.src(path.src.core+'css/libs.css')
-        .pipe(sourcemaps.init())
         .pipe(autoprefixer(['last 10 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
         .pipe(cssnano())
-        .pipe(sourcemaps.write())
         .pipe(gulp.dest(path.build.css));
 });
 
@@ -178,13 +196,7 @@ gulp.task('nunjucks', function() {
 		.pipe(reload({stream: true}))
 });
 
-gulp.task('build', ['clean', 'image:build', 'style:build', 'scripts:build'], function() {
-
-	var buildHtml = gulp.src(path.src.html)
-		.pipe(gulp.dest(path.build.core))
-
-	var buildCss = gulp.src(path.src.core+'css/style.css')
-		.pipe(gulp.dest(path.build.css))
+gulp.task('build', ['clean', 'nunjucks', 'image:build', 'style_libs:build', 'style:build', 'html:build', 'scripts:build'], function() {
 
 	var buildFonts = gulp.src(path.src.fonts)
 		.pipe(gulp.dest(path.build.fonts))

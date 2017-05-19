@@ -1,0 +1,65 @@
+{% extends "partials/layout.njk" %}
+
+{% block main %}
+
+<div class="inner-wrap no-pt">
+	<div class="page-top">
+		<div class="container">
+			<div class="page-banner contacts-page"></div>
+			
+			<section class="contacts-section clearfix">
+				<h2 class="main-title">Контакты</h2>
+				<div class="contacts">
+					<div class="info_item">
+						<h4>ТЕЛЕФОНЫ</h4>
+						<p>
+							+7 (727) 376-80-00<br>
+							+7 (701) 736-36-36
+						</p>
+					</div>
+					<div class="info_item">
+						<h4>EMAIL</h4>
+						<p>
+							info@promgenerator.kz<br>
+							sale@promgenerator.kz<br>
+							tender@promgenerator.kz
+						</p>
+					</div>
+					<div class="info_item">
+						<h4>АДРЕС</h4>
+						<p>
+							г. Алматы, мкр-н Жетысу 3<br>
+							д. 25, оф. 309 (БЦ "Фортуна", блок Г)
+						</p>
+					</div>
+					<div class="info_item">
+						<h4>РЕЖИМ РАБОТЫ</h4>
+						<p>
+							Пн ‒ пт с 09:00 до 18:00
+						</p>
+					</div>
+				</div>
+				<div class="map">
+					<img src="images/map.jpg" class="img-responsive">
+				</div>
+			</section>
+		</div>
+	</div>
+	
+	<section class="feedback-section">
+		<form class="feedback-form">
+			<h3 class="feedback-form_title">Форма обратной связи</h3>
+			<div class="form-group clearfix">
+				<div class="form-group-left">
+					<input type="text" name="name" class="form-input" placeholder="Ваше имя">
+					<input type="text" name="phone" class="form-input" placeholder="Телефона">
+					<input type="text" name="email" class="form-input" placeholder="Почта">
+				</div>
+				<textarea class="form-input" name="message" placeholder="Сообщение"></textarea>
+			</div>
+			<button class="form_submit" type="submit">Отправить</button>
+		</form>
+	</section>
+	
+</div>
+{% endblock %}
